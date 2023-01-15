@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif; 
+}
+/* navbar */
+.ads-container{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: center;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: #424242;
+
+}
+.g3-architects{
+    color: #131313;
+    margin-left: 170px;
+    font-weight: 700;
+    font-size: 20px;
+}
+  /* band message */
+  .band-msg{
+    /* align-items: center; */
+    text-align: center;
+  }
+  .header-title{
+    margin-top: 102px;
+    color: #131313;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .msg-des{
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    margin-top: 20px;
+    /* text-align: center; */
+
+  }
+  .btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+border-radius: 8px;
+font-size: 14px;
+color: #FFFFFF;
+padding: 15px 20px;
+border: 0;
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+
+  img{
+ 
+    width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+
+  }
+
+  /* feature gallary */
+  /* .photo-gallary{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  } */
+  /* .features-gallary{
+    display: grid;
+    grid-gap: 25px;
+grid-template-areas: 
+" side1 side2 side3 side4"
+"side1 side2 side3 side4"
+;
+grid-template-columns: repeat(4, 1fr);
+    
+  }
+  .features-gallary > div{
+    border: 2px solid red;
+
+  }
+
+  .features-gallary > div:second-child{
+    grid-area: side3 side4;
+    height: 400px;
+
+  } */
+
+
+  .features-gallary{
+    display: flex;
+    gap: 5px;
+    margin-top: 60px;
+    margin: 60px 120px 50px 180px;
+
+  }
+  .features-gallary > div{
+    flex: 1;
+  }
+  .photo-gallary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+ .photo-gallary img{
+    height: 100%;
+    width: 100%;
+  }
+  .feature-details{
+    text-align: left;
+    margin: auto;
+    padding-left: 90px;
+
+  }
+  .feature-header{
+    font-size: 45px;
+  }
+
+  /* Some facts */
+  .fact-title{
+    color: #131313;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+  }
+  .fact-des{
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  .fact{
+    padding-left: 130px;
+    margin-bottom: 30px;
+  }
+
+  /* boxes */
+  .fact-iteams{
+    display: flex;
+    justify-content:  space-evenly;
+  }
+  .fact-iteam img{
+    width: 45px;
+height: 45px;
+  }
+  .fact-iteam{
+
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 15px 20px 15px;
+    margin-bottom: 50px;
+   
+  }
+
+  .fact-iteam:hover{
+    background-color: skyblue;
+    border:3px solid #FF900E;
+  
+  }
+  .item-name{
+    color: #727272;
+  }
+  .item-no{
+    color: #000000;
+    font-weight: 600;
+  }
+
+  /* Our Sponspors */
+  .sponsor{
+    text-align: center;
+  }
+  .sponsor-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 60px;
+  }
+  .sponsor-des{
+    font-weight: 400;
+    color: #727272;
+    margin-top: 15px;
+  }
+
+  .sponsor-images{
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  .sponsor-images img{
+    margin: 60px 0 60px 0;
+    height: 50px;
+    width: 80px;
+  }
+  /* footer */
+  footer{
+    background: #FFF4E7;
+border-radius: 8px;
+color: #424242;
+text-align: center;
+padding: 40px 200px;
+margin: 40px 120px 80px 120px;
+
+  }
+  
+
+
+  /* cerir pic */
+
+  .love-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 120px; */
+    /* margin-right: 120px; */
+    /* height: calc(50%); */
+ 
+  }
+   .f-header{
+    color: #131313;
+    font-weight: 700;
+font-size: 32px;
+margin-bottom: 10px;
+   }
+.f-des{
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.work{
+    font-weight: 600;
+font-size: 18px;
+color: #131313;
+}
+.f-info{
+    font-weight: 400;
+font-size: 15px;
+color: #727272;
+
+}
+.f-des-1{
+    margin-top: 10px;
+    padding: 10px 12px;
+   box-shadow: 0.5px 0.5px 5px 1px rgba(231, 195, 238, 0.363);
+}
+
+
+.imagess{
+  height: 600px;
+  width: 500px;
+}
+
+
+/* cerir pic a baton */
+.big-button{
+    align-items: center;
+    margin-left: 650px;
+    position: relative;
+    top: -85px; left: 50px;
+}
+
+
+.btn-big{
+ 
+    padding: 18px ;
+    background: #FF900E;
+border-radius: 8px;
+color: #FFFFFF;
+  border: 0;
+  font-size: 18px;
+  text-align: center;
+  
+}
